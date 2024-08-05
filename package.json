@@ -1,0 +1,43 @@
+{
+  "name": "spotless-hungry-crocodile",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "axios": "^1.7.3",
+    "dangerous-html": "0.1.13",
+    "prop-types": "15.7.2",
+    "react": "^17.0.2",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.4.3"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test --env=jsdom",
+    "eject": "craco eject"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}
