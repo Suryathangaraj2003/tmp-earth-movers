@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 
 import PropTypes from 'prop-types'
-import img1 from '../images/abt1.jpeg'
-import img2 from '../images/abt2.jpeg'
-import img3 from '../images/abt3.jpeg'
+import img1 from '../images/img13.jpeg'
+import img2 from '../images/img14.jpeg'
+import img3 from '../images/img15.jpeg'
 
 import './features1.css'
 
@@ -17,14 +17,14 @@ const Features1 = (props) => {
           {activeTab === 0 && (
             <img
               alt={props.feature1ImgAlt}
-              src={img1}
+              src={img2}
               className="features1-image thq-img-ratio-16-9"
             />
           )}
           {activeTab === 1 && (
             <img
               alt={props.feature2ImgAlt}
-              src={img2}
+              src={img1}
               className="features1-image1 thq-img-ratio-16-9"
             />
           )}

@@ -181,7 +181,7 @@ const Hero = (props) => {
             />
             <img
               alt="Hero Image"
-              src="https://images.unsplash.com/photo-1568214379698-8aeb8c6c6ac8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxncmFmaWN8ZW58MHx8fHwxNzE1Nzk0OTk5fDA&amp;ixlib=rb-4.0.3&amp;w=1500"
+              src={img13}
               className="hero-placeholder-image23 thq-img-scale thq-img-ratio-1-1"
             />
           </div>
