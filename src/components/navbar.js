@@ -14,7 +14,7 @@ const Navbar = (props) => {
     <header className="navbar-container">
       <header data-thq="thq-navbar" className="navbar-navbar-interactive">
         <div className='logo'>
-        <img src={logo} height='50px'
+        <img src={logo} height='70px'
           
           />
           <h1>TMP</h1>

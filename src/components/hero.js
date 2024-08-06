@@ -26,8 +26,16 @@ const Hero = (props) => {
       <div className="hero-column hero thq-section-padding thq-section-max-width">
         <div className="hero-content">
           <h1 className="hero-text thq-heading-1">{props.heading1}</h1>
-          <h2 className='name'>Poovarasan</h2>
+          <div className='name'>
+          <h2 >Poovarasan</h2>
+          <h3>GSTIN:33GQYPM9720F1Z8</h3>
+          <h3>Ph.no:8903650409</h3>
+          </div>
+          
+
           <p className="hero-text1 thq-body-large">{props.content1}</p>
+          <p>Available Machinery: <b>JCB with Breakers</b>, <b>Tipper</b>, <b>Tractor</b> with <b>trailer</b> all are available for monthly or day rental facility.</p>
+
         </div>
         <div className="hero-actions ">
      
