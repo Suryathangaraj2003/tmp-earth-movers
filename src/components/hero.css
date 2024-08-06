@@ -9,8 +9,20 @@
   flex-shrink: 0;
   flex-direction: column;
 }
+.hero{
+  background: url('https://img.freepik.com/premium-vector/outline-building-construction-site-house-build_53500-1648.jpg?size=626&ext=jpg&ga=GA1.1.909964718.1678808637&semt=ais_hybrid') no-repeat center center/cover;
+  /* background-color: rgb(235, 148, 60); */
+  margin: 0 10px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: large;
+}
+.hero-text1{
+  font-size: larger;
+  font-weight: bold;
+}
 .name{
-  color:rgb(246, 103, 51)
+  
 }
 .hero-column {
   gap: var(--dl-space-space-oneandhalfunits);

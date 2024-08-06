@@ -9,6 +9,9 @@ import img7 from '../images/img7.jpeg'
 import img8 from '../images/img8.jpeg'
 import img9 from '../images/img9.jpeg'
 import img10 from '../images/img10.jpeg'
+import img11 from '../images/img11.jpeg'
+import img12 from '../images/img12.jpeg'
+import img13 from '../images/img13.jpeg'
 
 
 
@@ -19,14 +22,14 @@ import './hero.css'
 
 const Hero = (props) => {
   return (
-    <div className="hero-header78">
-      <div className="hero-column thq-section-padding thq-section-max-width">
+    <div className="hero-header78 ">
+      <div className="hero-column hero thq-section-padding thq-section-max-width">
         <div className="hero-content">
           <h1 className="hero-text thq-heading-1">{props.heading1}</h1>
           <h2 className='name'>Poovarasan</h2>
           <p className="hero-text1 thq-body-large">{props.content1}</p>
         </div>
-        <div className="hero-actions">
+        <div className="hero-actions ">
      
 
          
@@ -51,59 +54,63 @@ const Hero = (props) => {
           <div className="thq-animated-group-horizontal">
             <img
               alt={props.image1Alt}
-              src={img1}
+              src={img4}
               className="hero-placeholder-image thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image2Alt}
-              src={img2}
+              src={img6}
               className="hero-placeholder-image01 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image3Alt}
-              src={img3}
+              src={img2}
               className="hero-placeholder-image02 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image4Alt}
-              src={img4}
+              src={img3}
               className="hero-placeholder-image03 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image5Alt}
-              src={img5}
+              src={img1}
               className="hero-placeholder-image04 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image6Alt}
-              src={img6}
+              src={img5}
               className="hero-placeholder-image05 thq-img-scale thq-img-ratio-1-1"
             />
           </div>
+
+
+
+
           <div className="thq-animated-group-horizontal">
             <img
               alt={props.image1Alt}
-              src={img7}
+              src={img4}
               className="hero-placeholder-image06 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image2Alt}
-              src={img8}
+              src={img6}
               className="hero-placeholder-image07 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image3Alt}
-              src={img9}
+              src={img2}
               className="hero-placeholder-image08 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image4Alt}
-              src={img10}
+              src={img3}
               className="hero-placeholder-image09 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image5Alt}
-              src={props.image5Src}
+              src={img1}
               className="hero-placeholder-image10 thq-img-scale thq-img-ratio-1-1"
             />
             <img
@@ -117,59 +124,59 @@ const Hero = (props) => {
           <div className="thq-animated-group-horizontal-reverse">
             <img
               alt={props.image7Alt}
-              src={img6}
+              src={img8}
               className="hero-placeholder-image12 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image8Alt}
-              src={img1}
+              src={img9}
               className="hero-placeholder-image13 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image9Alt}
-              src={img9}
+              src={img10}
               className="hero-placeholder-image14 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image10Alt}
-              src={img4}
+              src={img11}
               className="hero-placeholder-image15 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image11Alt}
-              src={img7}
+              src={img12}
               className="hero-placeholder-image16 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image12Alt}
-              src={img2}
+              src={img13}
               className="hero-placeholder-image17 thq-img-scale thq-img-ratio-1-1"
             />
           </div>
           <div className="thq-animated-group-horizontal-reverse">
             <img
               alt={props.image7Alt}
-              src={img6}
+              src={img8}
               className="hero-placeholder-image18 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image8Alt}
-              src={img1}
+              src={img9}
               className="hero-placeholder-image19 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image9Alt}
-              src={img9}
+              src={img10}
               className="hero-placeholder-image20 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image10Alt}
-              src={img4}
+              src={img11}
               className="hero-placeholder-image21 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image11Alt}
-              src={img7}
+              src={img12}
               className="hero-placeholder-image22 thq-img-scale thq-img-ratio-1-1"
             />
             <img
