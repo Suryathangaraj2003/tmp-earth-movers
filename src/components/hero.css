@@ -18,8 +18,9 @@
   font-size: large;
 }
 .hero-text1{
-  font-size: larger;
+  /* font-size: larger; */
   font-weight: bold;
+  text-align: left;
 }
 .name{
   
@@ -43,7 +44,7 @@
   text-align: center;
 }
 .hero-text1 {
-  text-align: center;
+  /* text-align: center; */
 }
 .hero-actions {
   gap: var(--dl-space-space-unit);
