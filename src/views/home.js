@@ -18,6 +18,7 @@ const Home = (props) => {
     <div id='home' className="home-container">
       <Helmet>
         <title>TMP EARTH MOVERS</title>
+        <meta name="description" content="TMP Earth Movers is a leading provider of earth moving services, offering a wide range of heavy-duty equipment and experienced operators for all your construction and infrastructure needs. With a focus on quality, efficiency, and safety, we deliver top-notch earth moving solutions to clients across the region. Browse our services, learn about our machinery, and get a quote today."/>
       </Helmet>
       <Navbar></Navbar>
       <Hero image1Src="https://images.unsplash.com/photo-1526593676484-54adc4701fee?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMjY3Mzk3Nnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"></Hero>
